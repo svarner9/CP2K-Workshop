@@ -1,0 +1,87 @@
+# URL: https://cp2k-basis.pierrebeaujean.net/api/pseudopotentials/GTH-PBE/data?elements=H,O,F,Na,Cl,I
+# BUILD: 22/02/2023 @ 10:31
+# FETCHED: 29/06/2023 @ 17:17
+# ---
+# H [0|1s]
+# SOURCE: https://github.com/cp2k/cp2k/raw/786bc82ff9ded3e1f761cba6d8e25c3c9fe19bb1/data/POTENTIAL_UZH#L985
+H  GTH-PBE-q1 GTH-GGA-q1
+1 0 0 0
+      0.20059317   2    -4.17806832     0.72440924
+     0
+# O [2|2s4p]
+# SOURCE: https://github.com/cp2k/cp2k/raw/786bc82ff9ded3e1f761cba6d8e25c3c9fe19bb1/data/POTENTIAL_UZH#L1037
+O  GTH-PBE-q6 GTH-GGA-q6
+2 4 0 0
+      0.24446328   2   -16.67548222     2.48908598
+     1
+      0.22097111   1    18.33446866
+# F [2|2s5p]
+# SOURCE: https://github.com/cp2k/cp2k/raw/786bc82ff9ded3e1f761cba6d8e25c3c9fe19bb1/data/POTENTIAL_UZH#L1043
+F  GTH-PBE-q7 GTH-GGA-q7
+2 5 0 0
+      0.21479317   2   -21.58300901     3.20216220
+     1
+      0.19468879   1    23.74521663
+# Na [10|1s]
+# SOURCE: https://github.com/cp2k/cp2k/raw/786bc82ff9ded3e1f761cba6d8e25c3c9fe19bb1/data/POTENTIAL_UZH#L1057
+Na  GTH-PBE-q1 GTH-GGA-q1
+1 0 0 0
+      0.87948364   1    -1.16444467
+     2
+      0.67053580   2     1.86827773    -0.22540116
+                                        0.63725384
+      0.86099184   1     0.61384870
+# Na [2|3s6p]
+# SOURCE: https://github.com/cp2k/cp2k/raw/786bc82ff9ded3e1f761cba6d8e25c3c9fe19bb1/data/POTENTIAL_UZH#L1065
+Na  GTH-PBE-q9 GTH-GGA-q9
+3 6 0 0
+      0.23296140   2     0.43081460    -0.17323685
+     2
+      0.13516235   1    34.49180830
+      0.13741952   1   -14.19565216
+# Cl [10|2s5p]
+# SOURCE: https://github.com/cp2k/cp2k/raw/786bc82ff9ded3e1f761cba6d8e25c3c9fe19bb1/data/POTENTIAL_UZH#L1119
+Cl  GTH-PBE-q7 GTH-GGA-q7
+2 5 0 0
+      0.41014710   1    -6.37852110
+     2
+      0.33955270   2    15.21928659    -4.93452229
+                                        6.37068301
+      0.37848905   1     4.33859777
+# I [36|2s5p10d]
+# SOURCE: https://github.com/cp2k/cp2k/raw/786bc82ff9ded3e1f761cba6d8e25c3c9fe19bb1/data/POTENTIAL_UZH#L2035
+I  GTH-PBE-q17 GTH-GGA-q17
+2 5 10 0
+      0.49536553   1     4.50410000
+     3
+      0.46526297   3    10.91209810    -6.57351065     1.50686732
+                                       10.67400906    -3.89071141
+                                                       2.58810576
+      0.49484434   2     4.59220279    -2.21706498
+                                        2.69618974
+      0.38939931   2    -3.61574428    -0.84012785
+                                        0.57147894
+# I [28|4s11p10d]
+# SOURCE: https://github.com/cp2k/cp2k/raw/786bc82ff9ded3e1f761cba6d8e25c3c9fe19bb1/data/POTENTIAL_UZH#L2047
+I  GTH-PBE-q25 GTH-GGA-q25
+4 11 10 0
+      0.38225411   3    23.80337747    -4.40613368    -0.50386638
+     3
+      0.32259704   2     0.96832566     4.28491389
+                                       -5.98196613
+      0.31565752   2    -0.24652861    -0.61441712
+                                        0.67320784
+      0.44657907   2     1.77815569    -3.09368665
+                                        3.71470732
+# I [46|2s5p]
+# SOURCE: https://github.com/cp2k/cp2k/raw/786bc82ff9ded3e1f761cba6d8e25c3c9fe19bb1/data/POTENTIAL_UZH#L2024
+I  GTH-PBE-q7 GTH-GGA-q7
+2 5 0 0
+      0.56000026   1     8.21775094
+     3
+      0.53192888   3     2.30815101     1.00390944    -0.95915634
+                                       -2.85562978     2.47652991
+                                                      -1.96583009
+      0.58918228   2     0.90648148     0.42507078
+                                       -0.50295137
+      0.73972340   1     0.47919829
