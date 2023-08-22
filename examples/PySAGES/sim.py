@@ -105,6 +105,12 @@ def simulation(T=T, dt=dt, friction=friction):
         atoms = traj[-1]
     else:
         atoms = read('initial.xyz')
+    
+    for atom in atoms:
+        new_masses = atoms.get_masses()
+        if atom.symbol == 'H':
+            new_masses[atom.index] = 2.014
+            atoms.set_masses(masses=new_masses)
 
     calc = CP2K(basis_set_file=None,
                 potential_file=None,

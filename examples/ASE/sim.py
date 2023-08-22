@@ -80,6 +80,12 @@ if os.path.exists('md.traj'):
 else:
     atoms = read('initial.xyz')
 
+for atom in atoms:
+    new_masses = atoms.get_masses()
+    if atom.symbol == 'H':
+        new_masses[atom.index] = 2.014
+        atoms.set_masses(masses=new_masses)
+
 calc = CP2K(basis_set_file=None,
             potential_file=None,
             basis_set=None,
