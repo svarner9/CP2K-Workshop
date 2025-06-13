@@ -1,4 +1,4 @@
-# cp2k-examples
+# CP2K and ASE Workshop
 Some examples of how to run biased AIMD simulations using the CP2K software, combined with the ASE and PySAGES python packages.
 
 ## Program installation
@@ -23,7 +23,7 @@ $CONDA_PREFIX/bin/cp2k_shell.psmp
 ```
 where ```$CONDA_PREFIX``` is the path to the conda environment you just created. The ```cp2k.psmp``` file is the main executable, and ```cp2k_shell.psmp``` is the shell that is used by ASE to run cp2k.
 
-We will also need the ```cp2k/data``` folder which contains the basis sets and potentials. We can get
+We will also need the ```cp2k/data``` folder which contains the basis sets and pseudopotentials. We can get
 this from the cp2k github repository:
 ```
 git clone https://github.com/cp2k/cp2k.git
