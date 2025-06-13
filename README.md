@@ -1,6 +1,10 @@
 # CP2K and ASE Workshop
 Some examples of how to run biased AIMD simulations using the CP2K software, combined with the ASE and PySAGES python packages.
 
+<p align="center">
+<img src="water.png" alt="water" width="400"/>
+</p>
+
 ## Program installation
 We will be using conda to install the necessary python packages, and the CP2K software.
 
